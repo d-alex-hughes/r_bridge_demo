@@ -1,0 +1,32 @@
+---
+title: "Tutorial"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+![](https://youtu.be/NOJ2_x3NhOU)
+
+## Topic 1
+
+In this segment, you're going to learn how to add. I know, its a little remedial, but given the audience (:joy:) I'm sure you'll understand. 
+
+### Exercise 
+
+*Here's a simple exercise with an empty code chunk provided for entering the answer.*
+
+Write the R code required to add two plus two:
+
+```{r two-plus-two, exercise=TRUE}
+
+```
+
+```{r two-plus-two-solution}
+2 + 2
+```
+
